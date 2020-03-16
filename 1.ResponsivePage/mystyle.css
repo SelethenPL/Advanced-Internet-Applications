@@ -1,0 +1,93 @@
+/* Define standard variables and values for website */
+/* Use the variables */
+body {
+  background-color: lightblue;
+  color: darkblue;
+  font-size: 16px;
+  margin: 10px auto;
+}
+
+p {
+  margin: 10px;
+  text-align: justify;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.boxes > * {
+  padding: 0.5rem;
+  background-color: #333;
+  color: white;
+}
+
+.boxes {
+  display: grid;
+  grid-auto-rows: minmax(40px, auto);
+  grid-gap: 8px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  width: 30%;
+  float: right;
+  text-align: center;
+  top: 0;
+  right: 0;
+  padding: 3%;
+  margin-bottom: 5%;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .boxes {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .boxes li:nth-child(1),
+.boxes li:nth-child(2),
+.boxes li:nth-child(3) {
+    grid-column: 1/-1;
+  }
+}
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .boxes {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .boxes li:nth-child(1),
+.boxes li:nth-child(2) {
+    grid-column: span 3;
+  }
+
+  .boxes li:nth-child(3) {
+    grid-column: span 6;
+  }
+}
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .boxes {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .boxes li:nth-child(1),
+.boxes li:nth-child(2),
+.boxes li:nth-child(3) {
+    grid-column: span 2;
+  }
+}
+
+/*# sourceMappingURL=mystyle.css.map */
