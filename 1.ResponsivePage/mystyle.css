@@ -1,53 +1,114 @@
-/* Define standard variables and values for website */
-/* Use the variables */
+html, body, p {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Main body */
 body {
   background-color: lightblue;
   color: darkblue;
   font-size: 16px;
-  margin: 10px auto;
+  margin: auto;
 }
-
-p {
+body p {
   margin: 10px;
   text-align: justify;
+  clear: both;
 }
-
-ul {
+body ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.boxes > * {
-  padding: 0.5rem;
-  background-color: #333;
-  color: white;
+/* Menu values */
+nav {
+  margin: 10px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70px;
+}
+nav #logo {
+  width: 128px;
+  height: 128px;
+}
+nav h1 {
+  margin-left: 10px;
+  font-size: 32px;
 }
 
+/* menu menu-link */
+#menu-link a {
+  color: black;
+  margin: 10px;
+  text-decoration: none;
+}
+
+/* menu icon */
+#burger {
+  border: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+#burger img {
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+}
+
+/* Boxes, -> proper content */
 .boxes {
   display: grid;
   grid-auto-rows: minmax(40px, auto);
   grid-gap: 8px;
 }
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+.boxes > * {
   background-color: #333;
   color: white;
-  text-align: center;
 }
 
-h2 {
+/* Footer  */
+.content {
+  min-height: calc(100vh - 90px);
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+}
+.footer p {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* table sub-headers */
+h2, .dolor, .ipsum, .lorem {
+  color: black;
   width: 30%;
+  border: 3px white solid;
   float: right;
   text-align: center;
-  top: 0;
-  right: 0;
   padding: 3%;
-  margin-bottom: 5%;
+  margin-right: 0;
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.lorem {
+  background-color: pink;
+}
+
+.ipsum {
+  background-color: aqua;
+}
+
+.dolor {
+  background-color: yellow;
 }
 
 /* Mobile */
@@ -60,6 +121,16 @@ h2 {
 .boxes li:nth-child(2),
 .boxes li:nth-child(3) {
     grid-column: 1/-1;
+  }
+
+  #menu-link, .titleBox {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-grow: 2;
+    justify-content: flex-end;
   }
 }
 /* Tablet */
@@ -76,6 +147,16 @@ h2 {
   .boxes li:nth-child(3) {
     grid-column: span 6;
   }
+
+  #menu-link {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-grow: 2;
+    justify-content: flex-end;
+  }
 }
 /* Desktop */
 @media screen and (min-width: 1024px) {
@@ -87,6 +168,17 @@ h2 {
 .boxes li:nth-child(2),
 .boxes li:nth-child(3) {
     grid-column: span 2;
+  }
+
+  #burger {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-grow: 2;
+    justify-content: flex-end;
+    align-self: flex-start;
   }
 }
 

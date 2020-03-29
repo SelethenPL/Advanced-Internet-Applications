@@ -1,41 +1,62 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="mystyle.css">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="mystyle.css">
+	<title>Responsive WebPage</title>
+</head>
 <body>
+<div class="content">
 
-<img src="emblem.png" height=10% width=10%>
-<h1 class="title">Responsive website</h1>
-
-<ul class="boxes">
-  <li>
-	<div class="boxes-wrapper">
-	  <h2 style="text-align:right; border:1px white solid">Lorem</h2>
-	  <p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed ex vel magna sagittis placerat. Suspendisse bibendum facilisis quam id feugiat. Curabitur odio quam, tincidunt nec consectetur quis, fermentum mollis mauris. Mauris dignissim sit amet nisi non malesuada. Maecenas hendrerit non sem non pharetra. Mauris vitae lectus non ex fringilla eleifend. Integer malesuada magna id eros egestas, a sagittis felis lobortis. Morbi vitae dui pretium, euismod leo at, dapibus orci. Curabitur sit amet dapibus elit. Vestibulum lacinia eleifend elit, molestie lobortis neque rhoncus at. Praesent elementum blandit leo, in convallis ante sodales quis. In lacinia posuere nibh non fermentum. Sed ut lectus ultrices, laoreet diam at, commodo erat. 
-	  </p>
-	</div>
-  </li>
-  <li>
-	<div class="boxes-wrapper">
-	  <h2>Ipsum</h2>
-	  <p>
-		Nulla ante urna, molestie at felis sit amet, aliquet molestie nunc. Fusce non purus vulputate, eleifend ex euismod, dapibus diam. Donec id congue magna. Praesent elementum lobortis lacus et mollis. Nam sed sapien eu metus pretium pellentesque. Suspendisse posuere massa libero, eget dictum elit cursus eu. Praesent sit amet ipsum tortor. Quisque fringilla mauris mollis est iaculis convallis. Integer molestie faucibus nisl, non efficitur tortor finibus eu. Quisque aliquet fermentum molestie. Sed nec gravida leo, sed iaculis elit. Nulla ullamcorper, odio et dictum rhoncus, enim diam maximus dolor, at pharetra diam lacus ut magna. Donec massa libero, porttitor sit amet magna ac, lacinia cursus urna. Nunc lacinia orci in orci vulputate, sed elementum turpis aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-	  </p>
-	</div>
-  </li>
-  <li>
-	<div class="boxes-wrapper">
-	  <h2>Dolor</h2>
-	  <p>
-		Donec rutrum vulputate sem rutrum scelerisque. Maecenas laoreet gravida ex, ac tristique mi malesuada at. Nulla odio elit, porta ac nulla eget, lacinia molestie odio. Donec facilisis interdum risus, in dignissim sapien iaculis eget. Nulla magna tellus, porta ac viverra quis, porttitor nec nibh. Cras ac leo sed dolor pharetra tristique sit amet euismod nibh. Aenean sapien ante, mattis at blandit eget, sagittis at tortor. Donec sed eleifend mi, nec placerat felis. In dictum massa vitae urna placerat mattis. Maecenas facilisis malesuada turpis, a rutrum dui feugiat vel. Praesent lacinia, odio ut fringilla ultricies, odio ligula semper augue, id suscipit nunc eros a lacus.
-	  </p>
-	</div>
-  </li>
-</ul>
-
-<div class="footer">
-	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.©2020 </p>
+	<nav>
+		<div class="logo-wrapper">
+			<img id="logo" src="emblem.png">
+		</div>
+		<h1> Responsive website </h1>
+		<div class="menu">
+			<div id="burger">
+				<img src="burger.png">
+			</div>
+			<div id="menu-link">
+                <a href="#">Lorem</a>
+                <a href="#">Ipsum</a>
+                <a href="#">Dolor</a>
+                <a href="#">Sit</a>
+			</div>
+		</div>
+	</nav>
+	<br>
+	<ul class="boxes">
+		<li>
+			<div class="boxes-wrapper">
+				<h2 class="lorem"> Lorem </h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed ex vel magna sagittis placerat. Suspendisse bibendum facilisis quam id feugiat. Curabitur odio quam, tincidunt nec consectetur quis, fermentum mollis mauris. Mauris dignissim sit amet nisi non malesuada. Maecenas hendrerit non sem non pharetra. Mauris vitae lectus non ex fringilla eleifend. Integer malesuada magna id eros egestas, a sagittis felis lobortis. Morbi vitae dui pretium, euismod leo at, dapibus orci. Curabitur sit amet dapibus elit. Vestibulum lacinia eleifend elit, molestie lobortis neque rhoncus at. Praesent elementum blandit leo, in convallis ante sodales quis. In lacinia posuere nibh non fermentum. Sed ut lectus ultrices, laoreet diam at, commodo erat. 
+				</p>
+			</div>
+		</li>
+		<li>
+			<div class="boxes-wrapper">
+				<h2 class="ipsum">Ipsum</h2>
+				<p>
+				Nulla ante urna, molestie at felis sit amet, aliquet molestie nunc. Fusce non purus vulputate, eleifend ex euismod, dapibus diam. Donec id congue magna. Praesent elementum lobortis lacus et mollis. Nam sed sapien eu metus pretium pellentesque. Suspendisse posuere massa libero, eget dictum elit cursus eu. Praesent sit amet ipsum tortor. Quisque fringilla mauris mollis est iaculis convallis. Integer molestie faucibus nisl, non efficitur tortor finibus eu. Quisque aliquet fermentum molestie. Sed nec gravida leo, sed iaculis elit. Nulla ullamcorper, odio et dictum rhoncus, enim diam maximus dolor, at pharetra diam lacus ut magna. Donec massa libero, porttitor sit amet magna ac, lacinia cursus urna. Nunc lacinia orci in orci vulputate, sed elementum turpis aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+				</p>
+			</div>
+		</li>
+		<li>
+			<div class="boxes-wrapper">
+				<h2 class="dolor">Dolor</h2>
+				<p>
+					Donec rutrum vulputate sem rutrum scelerisque. Maecenas laoreet gravida ex, ac tristique mi malesuada at. Nulla odio elit, porta ac nulla eget, lacinia molestie odio. Donec facilisis interdum risus, in dignissim sapien iaculis eget. Nulla magna tellus, porta ac viverra quis, porttitor nec nibh. Cras ac leo sed dolor pharetra tristique sit amet euismod nibh. Aenean sapien ante, mattis at blandit eget, sagittis at tortor. Donec sed eleifend mi, nec placerat felis. In dictum massa vitae urna placerat mattis. Maecenas facilisis malesuada turpis, a rutrum dui feugiat vel. Praesent lacinia, odio ut fringilla ultricies, odio ligula semper augue, id suscipit nunc eros a lacus.
+				</p>
+			</div>
+		</li>
+	</ul>
 </div>
+<footer class="footer">
+	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. © 2020 </p>
+</footer>
 
 </body>
 </html>
