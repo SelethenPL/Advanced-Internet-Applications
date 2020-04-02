@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	table {
+		border: 1px solid red;
+		table-layout: fixes;
+		width: 800px;
+	}
+	tr:nth-child(even) {
+		background: lightgray;
+	}
+	tr, td {
+		border: 1px solid red;
+		width: 100%;
+		overflow: hidden;
+	}
+	</style>
+</head>
+<body>
+
+<h1>Welcome to my book collection</h1>
+
+<p> Click the button to add a new row. </p>
+<button type="button" onclick="addNewRecord()"> Add new </button>
+<br><br>
+<table id="myTable">
+	<tr>
+		<td>Title</td>
+		<td>Author</td>
+		<td>Length</td>
+		<td> <td>
+	</tr>
+</table>
+
+<script>
+	var index = 1;
+
+	function addNewRecord() {
+		let table = document.getElementById("myTable");
+		let row = table.insertRow();
+		let cell_1 = row.insertCell(0);
+		let cell_2 = row.insertCell(1);
+		let cell_3 = row.insertCell(2);
+		let cell_4 = row.insertCell(3);
+		
+		cell_1.innerHTML = '<input type="text" id="title"></input>';
+		cell_2.innerHTML = '<input type="text" id="author"></input>';
+		cell_3.innerHTML = '<input type="text" id="length"></input>';
+		cell_4.innerHTML = '<button type="button" onclick="saveRecord(this)" id="save">save</button>'
+						+  '<button type="button" onclick="removeRecord(this)" id="remove">remove</button>';
+	}
+	
+	function editRecord(x) {
+		let table = document.getElementById("myTable");
+		
+		let row = x.parentNode.parentNode;
+		let cell_1 = row.cells[0];
+		let cell_2 = row.cells[1];
+		let cell_3 = row.cells[2];
+		let cell_4 = row.cells[3];
+		
+		cell_1.innerHTML = '<input type="text" id="title">' + cell_1.childNodes[0].value + '</input>';
+		cell_2.innerHTML = '<input type="text" id="author">' + cell_2.childNodes[0].value + '</input>';
+		cell_3.innerHTML = '<input type="text" id="length">' + cell_3.childNodes[0].value + '</input>';
+		cell_4.innerHTML = '<button type="button" onclick="editRecord(this)">edit</button>'
+						+  '<button type="button" onclick="removeRecord(this)">remove</button>';
+
+		
+	}
+	
+	function saveRecord(x) {
+		let table = document.getElementById("myTable");
+		
+		let row = x.parentNode.parentNode;
+		let cell_1 = row.cells[0];
+		let cell_2 = row.cells[1];
+		let cell_3 = row.cells[2];
+		let cell_4 = row.cells[3];
+		
+		alert("what : " + cell_1.childNodes[0].value);
+		cell_1.innerHTML = cell_1.childNodes[0].value;
+		cell_2.innerHTML = cell_2.childNodes[0].value;
+		cell_3.innerHTML = cell_3.childNodes[0].value;
+		cell_4.innerHTML = '<button type="button" onclick="editRecord(this)">edit</button>'
+						+  '<button type="button" onclick="removeRecord(this)">remove</button>';
+	}
+	
+	function removeRecord(x) {
+		let row = x.parentNode.parentNode;
+		document.getElementById("myTable").deleteRow(row.rowIndex); // nie wiem jak ustawić aktualny index
+	}
+</script>
+</body>
+</html> 
