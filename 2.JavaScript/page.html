@@ -4,7 +4,7 @@
 	<style>
 	table {
 		border: 1px solid red;
-		table-layout: fixes;
+		table-layout: fixed;
 		width: 800px;
 	}
 	tr:nth-child(even) {
@@ -12,7 +12,7 @@
 	}
 	tr, td {
 		border: 1px solid red;
-		width: 100%;
+		width: 200px;
 		overflow: hidden;
 	}
 	</style>
@@ -29,7 +29,7 @@
 		<td>Title</td>
 		<td>Author</td>
 		<td>Length</td>
-		<td> <td>
+		<td> </td>
 	</tr>
 </table>
 
@@ -78,7 +78,6 @@
 		let cell_3 = row.cells[2];
 		let cell_4 = row.cells[3];
 		
-		alert("what : " + cell_1.childNodes[0].value);
 		cell_1.innerHTML = cell_1.childNodes[0].value;
 		cell_2.innerHTML = cell_2.childNodes[0].value;
 		cell_3.innerHTML = cell_3.childNodes[0].value;
@@ -88,7 +87,7 @@
 	
 	function removeRecord(x) {
 		let row = x.parentNode.parentNode;
-		document.getElementById("myTable").deleteRow(row.rowIndex); // nie wiem jak ustawić aktualny index
+		document.getElementById("myTable").deleteRow(row.rowIndex);
 	}
 </script>
 </body>
