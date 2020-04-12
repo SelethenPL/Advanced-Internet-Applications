@@ -1,0 +1,63 @@
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>jQuery</title>
+	<style>
+		.asdf{
+			background: Pink;
+		}
+		.qwerty {
+			background-color: Aqua;
+		}
+	</style>
+	<script type="text/javascript" 
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			
+			$('tr:even').addClass('asdf');
+			$('ol.a li.b:not(:has(a))').addClass('qwerty')
+			
+			$('button:contains(\'A\')').click(function () {
+				$('#classic').addClass('asdf');
+			});
+		
+			$('button:contains(\'B\')').click(function () {
+				$('#classic').removeClass('asdf');
+			});
+			
+			$('button:contains(\'C\')').click(function () {
+				$('#toggle').toggleClass('asdf');
+			});
+		});
+	</script>
+</head>
+<body>
+
+	<table>
+		<tr><td>Uno</td></tr>
+		<tr><td>Dos</td></tr>
+		<tr><td>Tres</td></tr>
+		<tr><td>Cuatro</td></tr>
+		<tr><td>Cinco</td></tr>
+		<tr><td>Seis</td></tr>
+	</table>
+	<div>
+		<button>Text A</button>
+		<button>Text B</button>
+		<span id="classic">Adding/removing class</span>
+	</div>
+	<div>
+		<button>Text C</button>
+		<span id="toggle">Toggling class</span>
+	</div>
+
+	   <ol class="a">
+        <li class="b"><a href="">Cross</a></li>
+        <li class="b">Bow</li>
+        <li class="b"><a href="">Wall</a></li>
+    </ol>
+
+</body>
+</html>

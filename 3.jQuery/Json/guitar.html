@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Json guitars</title>
+	<script type="text/javascript"
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+	</script>
+	<script type="text/javascript">
+		$(function () {
+			$('button').click(function () {
+				$.getJSON('guitars.json', function(data) {
+					for (let i=0; i < data.Guitars.Guitar.length; i++) {
+						$('#content').append(
+							'<tr><td>'
+							+ data.Guitar[i].Brand 
+							+ '</td><td>' 
+							+ data.Guitar[i].Model 
+							+ '</td></tr>');
+					}
+				});
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<button>Get guitar data</button>
+	<table id='content' border='1'>
+		<tr>
+			<td><h3>Brand:</h3></td>
+			<td><h3>Model:</h3></td>
+		</tr>
+	<table>
+</body>
+</html>

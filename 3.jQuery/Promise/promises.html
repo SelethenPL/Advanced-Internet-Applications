@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<script type="text/javascript"
+    src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="get.js">
+</script>
+
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function () {
+	$('button').one('click', function () {
+        get("https://api.github.com")
+		.then(function(response) {
+			$('#content').append("Success!<br><hr/><hr/>", response);
+		}, function(error) {
+			$('#content').append("Can't be load.<br><hr/><hr/>", error);
+		});
+	});
+});
+</script>
+</head>
+<body>
+<button> Click me to make request! </button>
+<div> Your page: <br> </div>
+<div id='content'></div>
+</body>
+</html>
