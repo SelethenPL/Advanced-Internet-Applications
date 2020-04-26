@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Terraforming Mars",
+        "description": "In the 2400s, mankind begins to terraform the planet Mars. Giant corporations, sponsored by the World Government on Earth, initiate huge projects to raise the temperature, the oxygen level, and the ocean coverage until the environment is habitable. In Terraforming Mars, you play one of those corporations and work together in the terraforming process, but compete for getting victory points that are awarded not only for your contribution to the terraforming, but also for advancing human infrastructure throughout the solar system, and doing other commendable things.",
+        "image": "https://cf.geekdo-images.com/imagepage/img/sgZLoyg3KKeHvyHel8tZ2TIkXRw=/fit-in/900x600/filters:no_upscale()/pic3536616.jpg",
+        "rating": 8
+    },
+    {
+        "id": 2,
+        "title": "Forgotten Waters",
+        "description": "Forgotten Waters is a Crossroads Game set in a world of fantastical pirate adventure. In it, players take on the role of pirates sailing together on a ship, attempting to further their own personal stories as well as a common goal. The world of Forgotten Waters is silly and magical, with stories designed to encourage players to explore and laugh in delight as they interact with the world around them. It's a game in which every choice can leave a lasting impact on the story, and players will want turn over every rock just to see what they find. Forgotten Waters features five scenarios and a massive location book that provides players with tons of choices wherever they go.",
+        "image": "https://cf.geekdo-images.com/imagepage/img/zHcflei59RfJMHw6ZzXSXRYE53k=/fit-in/900x600/filters:no_upscale()/pic5253984.jpg",
+        "rating": 7
+    },
+    {
+        "id": 3,
+        "title": "Dune",
+        "description": "Imagine you can control the forces of a noble family, guild, or religious order on a barren planet which is the only source for the most valuable substance in the known universe. Imagine you can rewrite the script for one of the most famous science fiction books of all time. Welcome to the acclaimed 40-year-old board game which allows you to recreate the incredible world of Frank Herbert’s DUNE. In DUNE you will become the leader of one of six great factions. Each wishes to control the most valuable resource in the universe - melange, the mysterious spice only found at great cost on the planet DUNE. As Duke Leto Atreides says “All fades before melange. A handful of spice will buy a home on Tupile. It cannot be manufactured, it must be mined on Arrakis. It is unique and it has true geriatric properties.” And without melange space travel would be impossible. Only by ingesting the addictive drug can the Guild Steersman continue to experience visions of the future, enabling them to plot a safe path through hyperspace. Who will control DUNE? Become one of the characters and their forces from the book and . . . You decide!",
+        "image": "https://cf.geekdo-images.com/imagepage/img/UkSkAYiCwlcImKdgdhLqfBvq4Rs=/fit-in/900x600/filters:no_upscale()/pic4815198.jpg",
+        "rating": 8
+    },
+    {
+        "id": 4,
+        "title": "Codenames",
+        "description": "Two rival spymasters know the secret identities of 25 agents. Their teammates know the agents only by their CODENAMES. In Codenames, two teams compete to see who can make contact with all of their agents first. Spymasters give one-word clues that can point to multiple words on the board. Their teammates try to guess words of the right color while avoiding those that belong to the opposing team. And everyone wants to avoid the assassin. Codenames: Win or lose, it's fun to figure out the clues.",
+        "image": "https://cf.geekdo-images.com/imagepage/img/BwJJTrofiaH0Muxuo5rv0VCmuCY=/fit-in/900x600/filters:no_upscale()/pic2582929.jpg",
+        "rating": 6
+    }	
+]
