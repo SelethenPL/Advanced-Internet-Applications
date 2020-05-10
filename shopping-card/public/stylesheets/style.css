@@ -1,0 +1,22 @@
+.row {
+  margin: 10px;
+}
+
+
+.thumbnail {
+  border: 1px darkslategray solid;
+  padding: 15px;
+}
+
+.thumbnail img {
+  max-height: 150px;
+}
+
+.thumbnail .description {
+  color: darkgray;
+  font-size: 12px;
+}
+
+body {
+
+}

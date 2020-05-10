@@ -1,0 +1,40 @@
+{{# if products}}
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-mf-offset-3 col-sm-offset-3">
+            <ul class="list-group">
+                {{# each products }}
+                    <li class="list-group-item">
+                        <span class="badge"> {{ this.qty }} </span>
+                        <strong> {{ this.item.title }} </strong>
+                        <span class="label label-success"> {{ this.price }}.0 pln </span>
+                        <div class="btn-group">
+                            <a href="/remove-from-card/{{ this.item._id }}"
+                               class="btn btn-primary btn-xs"
+                               type="button">
+                                Remove item
+                            </a>
+                        </div>
+                    </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-mf-offset-3 col-sm-offset-3">
+            <strong>Total: {{ totalPrice }}.0 pln </strong>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-mf-offset-3 col-sm-offset-3">
+            <a href="/confirm" type="button" class="btn btn-success">Checkout</a>
+            <a href="/cancel" type="button" class="btn">cancel</a>
+        </div>
+    </div>
+{{ else }}
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-mf-offset-3 col-sm-offset-3">
+            <h2> No items in card </h2>
+        </div>
+    </div>
+{{/if}}
