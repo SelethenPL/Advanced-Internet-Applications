@@ -1,0 +1,25 @@
+﻿@{ 
+    var name = Request["name"];
+    if (Request["name"].IsEmpty() || Request["name"] == null)
+    {
+        name = "Robert Pauluson";
+    }
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>Weird List</h1>
+    <ul>
+        @{ 
+            for (var i = 0; i < 10; i++)
+            {
+                <li>His name is @name</li>
+            }
+        }
+    </ul>
+
+</body>
+</html>

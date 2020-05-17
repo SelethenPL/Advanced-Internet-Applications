@@ -1,0 +1,75 @@
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\ASP Web Pages.dll.config
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\ASP Web Pages.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\ASP Web Pages.pdb
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\csc.exe
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\csc.exe.config
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\csc.rsp
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\csi.exe
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\csi.exe.config
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\csi.rsp
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\Microsoft.Managed.Core.targets
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.AppContext.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Collections.Immutable.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Console.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Globalization.Calendars.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.IO.Compression.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.IO.FileSystem.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Net.Http.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Net.Sockets.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Reflection.Metadata.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.ValueTuple.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Xml.XmlDocument.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Xml.XPath.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\vbc.exe
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\vbc.exe.config
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\vbc.rsp
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\VBCSCompiler.exe
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\roslyn\VBCSCompiler.exe.config
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\obj\Debug\ASP Web Pages.csprojAssemblyReference.cache
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\obj\Debug\ASP Web Pages.csproj.CoreCompileInputs.cache
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\obj\Debug\ASP Web Pages.csproj.CopyComplete
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\obj\Debug\ASP Web Pages.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\obj\Debug\ASP Web Pages.pdb
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\Microsoft.Web.Infrastructure.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\System.Web.Helpers.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\System.Web.Razor.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\System.Web.WebPages.Deployment.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\System.Web.WebPages.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\System.Web.WebPages.Razor.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\System.Web.Helpers.xml
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\System.Web.Razor.xml
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\System.Web.WebPages.xml
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\System.Web.WebPages.Deployment.xml
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\System.Web.WebPages.Razor.xml
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\pl\System.Web.Helpers.resources.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\pl\System.Web.Razor.resources.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\pl\System.Web.WebPages.resources.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\pl\System.Web.WebPages.Deployment.resources.dll
+F:\_Studia\6sem\Advanced-Internet-Applications\ASP Web Pages\ASP Web Pages\bin\pl\System.Web.WebPages.Razor.resources.dll
